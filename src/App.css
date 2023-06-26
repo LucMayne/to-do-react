@@ -1,38 +1,31 @@
 .App {
-  text-align: center;
+    margin: 3rem;
+    text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#input-field {
+    font-size: 1rem;
+    margin-top: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.todo-item {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgba(124, 124, 124, 0.767);
+    padding: 0.5rem;
+    margin: 1rem auto;
+    width: 80%;
+    max-width: 450px;
+    border-radius: 1rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Buttons {
+    display: flex;
+    padding: 3rem;
+    justify-content: space-around;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Buttons > button {
+    font-size: 14px;
+    margin: 0.5rem;
+    width: 10rem;
 }
